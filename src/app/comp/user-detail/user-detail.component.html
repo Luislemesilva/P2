@@ -1,0 +1,9 @@
+<div class="detail-container">
+    <div class="detail-card">
+      <h2>{{ post?.title || user?.name }}</h2>
+      <p>{{ post?.body || 'Email: ' + user?.email }}</p>
+      <p *ngIf="user">Telefone: {{ user.phone }}</p>
+      <button (click)="goBack()">Voltar</button>
+    </div>
+  </div>
+  

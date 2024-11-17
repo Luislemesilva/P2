@@ -1,0 +1,38 @@
+/* src/app/app.component.css */
+nav {
+    background: linear-gradient(135deg, #6200ea, #9c27b0);
+    color: #ffffff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+  }
+  
+a{
+    font-weight: 700;
+}
+  
+  h1 {
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+    transition: opacity 0.3s;
+  }
+  
+  .nav-link:hover {
+    opacity: 0.8;
+  }
+  

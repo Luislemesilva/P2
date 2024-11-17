@@ -1,0 +1,12 @@
+<div class="container">
+    <h2>Usuários</h2>
+    <div class="card-grid">
+      <div *ngFor="let user of users" class="user-card" (click)="viewUserDetails(user.id)">
+        <div class="user-avatar">{{ user.name[0] }}</div>
+        <h3>{{ user.name }}</h3>
+        <p>{{ user.email }}</p>
+        <p>{{ user.phone }}</p>
+      </div>
+    </div>
+  </div>
+  
